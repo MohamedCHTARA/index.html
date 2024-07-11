@@ -1,0 +1,76 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: sandybrown;
+    color:black;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:brown;
+    border-radius: 8px;
+    box-shadow: 10px royalblue;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    color:blueviolet;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: blue;
+  }
+  /*lignes*/
+  hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Formulaires */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Listes */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    color:white;
+  }
+  
+  /* Vidéos intégrées */
+  iframe {
+    width: 100%;
+    height: 315px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
